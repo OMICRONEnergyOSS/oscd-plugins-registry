@@ -6,6 +6,7 @@
   "scripts": {
     "start": "echo \"no tests needed for this repo\"",
     "build": "oscd clean && mkdir -p dist && cp providers.json dist/providers.json",
+    "bundle": "npm run build",
     "test": "echo \"no tests needed for this repo\"",
     "deploy": "oscd deploy"
   },
