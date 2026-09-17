@@ -1,0 +1,29 @@
+{
+  "name": "@omicronenergy/oscd-plugins-registry",
+  "version": "0.0.0",
+  "description": "Static registry of OpenSCD plugin providers, published as providers.json over GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "start": "echo \"no tests needed for this repo\"",
+    "build": "oscd clean && mkdir -p dist && cp providers.json dist/providers.json",
+    "test": "echo \"no tests needed for this repo\"",
+    "deploy": "oscd deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OMICRONEnergyOSS/oscd-plugins-registry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OMICRONEnergyOSS/oscd-plugins-registry/issues"
+  },
+  "homepage": "https://openscd.org",
+  "keywords": [
+    "OpenSCD",
+    "iec81650"
+  ],
+  "author": "OMICRON Electronics GmbH",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@omicronenergy/oscd-tooling": "^0.0.5"
+  }
+}
